@@ -1,14 +1,4 @@
-media (min-width: 1000px) {
-    #container {
-        display: flex;
-    }
-    #main {
-        width: 70%;
-    }
-    #sidebar {
-        width: 30%
-    }
-}
+
 @font-face {
     font-family: 'League Spartan';
     src: url('LeagueSpartan_Regular.ttf') format('truetype');
