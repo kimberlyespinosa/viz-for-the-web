@@ -1,0 +1,116 @@
+media (min-width: 1000px) {
+    #container {
+        display: flex;
+    }
+    #main {
+        width: 70%;
+    }
+    #sidebar {
+        width: 30%
+    }
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('LeagueSpartan_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('Playfair_Display.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DM_Sans/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #D9C6A5;
+    color: #503525
+}
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 125px;
+    margin: 40px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    margin: 50px
+}
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    white-space: nowrap
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 5px
+}
+h4 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 
+}
+.land-acknowledgement-circle {
+    width: 325px;
+    height: 100px;
+    border: 1px solid #503525;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #503525;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.land-acknowledgement {
+    margin: auto
+}
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chutchui-img {
+    display: inline-block;
+    border-radius: 10px; /* Set the border-radius for rounded corners */
+    overflow: hidden; /* Ensure content doesn't overflow rounded corners */
+    margin: 0 auto;
+}
+.project-acknowledgements {
+    text-align: center
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #503525; /* Button background color */
+    border: 1px solid #fff; /* Button border color */
+    border-radius: 5px; /* Button border-radius for rounded corners */
+    cursor: pointer;
+}
+.footer {
+    background-color: #503525;
+    color: #fff;
+    padding: 12.5px;
+    margin-left: -10px;
+    text-align: center;
+    width: 100%;
+  }
