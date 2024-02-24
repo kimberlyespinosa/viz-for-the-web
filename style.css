@@ -18,13 +18,29 @@
     font-style: normal;
 }
 body {
-    background-color: #D9C6A5;
+    background-color: #F3E5AB;
 }
 .title {
-    color: #5687AB
+    text-align: center;
+    margin-bottom: -400px;
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .landing-page-container {
+    border: 2px solid #503525; 
+    padding: 10px; 
+    margin: 20px; 
+    margin-bottom: 0px;
+    max-width: 100%; 
+    margin: 10px; 
+    }
+    h1 {
+    font-size: 100px
+    }
 }
 .stickers {
-    margin: 0
+    margin: -30px
 }
 
 @keyframes moveAndTiltMotion {
@@ -41,6 +57,8 @@ body {
   
   .stickers img {
     animation: moveAndTiltMotion 6s infinite; /* Adjust the duration and iteration count as needed */
+    display: block; /* Make sure the image is a block-level element */
+    margin: auto;
   }
 
 h1 {
@@ -53,7 +71,8 @@ h2 {
     font-family: 'DM Sans', sans-serif;
     color: #503525;
     font-weight: bold;
-    margin: 0 50px 0px 50px
+    margin-left: 100px;
+    margin-right: 100px
 }
 h3 {
     font-family: 'DM Sans', sans-serif;
@@ -66,13 +85,12 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
     color: #503525;
-    margin-left: 50px;
-    margin-right: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 5px
 }
 h4 {
-    font-family: 'League Spartan', sans-serif;
-    font-weight: 
+    font-family: 'League Spartan', sans-serif
 }
 .circle {
     width: 325px;
@@ -84,12 +102,15 @@ h4 {
     justify-content: center;
     color: #503525;
     box-sizing: border-box;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
 }
 .land-acknowledgement {
-    margin: auto
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px; 
 }
 .quote {
     margin: auto;
@@ -109,7 +130,10 @@ h4 {
 .aicd-map {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto
+    margin-top: 30px; /* Adjust the top margin as needed */
+    margin-bottom: 30px; /* Adjust the bottom margin as needed */
+    margin-left: auto;
+    margin-right: auto;
 }
 .chutchui-img {
     display: inline-block;
