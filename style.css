@@ -40,7 +40,14 @@ body {
     }
 }
 .stickers {
-    margin: -30px
+    margin: 0 -10px; /* Adjust as needed to create margins */
+    overflow: hidden
+}
+
+.stickers img {
+    animation: moveAndTiltMotion 6s infinite; /* Adjust the duration and iteration count as needed */
+    display: inline-block; /* Make sure the image is a block-level element */
+    margin: 0 10px; /* Adjust as needed to create margins */
 }
 
 @keyframes moveAndTiltMotion {
@@ -54,12 +61,7 @@ body {
       transform: translateX(5px) rotate(5deg);
     }
   }
-  
-  .stickers img {
-    animation: moveAndTiltMotion 6s infinite; /* Adjust the duration and iteration count as needed */
-    display: block; /* Make sure the image is a block-level element */
-    margin: auto;
-  }
+
 
 h1 {
     font-family: 'League Spartan', sans-serif;
@@ -85,14 +87,34 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
     color: #503525;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 5px
 }
 h4 {
     font-family: 'League Spartan', sans-serif
 }
-.circle {
+.circle-1 {
+    width: 325px;
+    height: 100px;
+    border: 1px solid #503525;
+    background-color: #503525;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #503525;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+.my-text {
+    color: #F3E5AB
+}
+
+.circle-2 {
     width: 325px;
     height: 100px;
     border: 1px solid #503525;
@@ -107,6 +129,7 @@ h4 {
     margin-right: auto;
     white-space: nowrap;
 }
+
 .land-acknowledgement {
     margin-left: auto;
     margin-right: auto;
