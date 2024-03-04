@@ -122,8 +122,9 @@ h2 {
     font-family: 'DM Sans', sans-serif;
     color: #503525;
     font-weight: bold;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 h3 {
     font-family: 'DM Sans', sans-serif;
