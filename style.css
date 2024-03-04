@@ -53,8 +53,8 @@ body {
     margin: 10px; 
     }
     .column {
-        margin-left: 100px;
-        margin-right: 100px
+        margin-left: 200px;
+        margin-right: 200px
     }
     p {
         font-family: 'Times New Roman', Times, serif;
@@ -69,14 +69,6 @@ body {
         max-width: 100%; 
         margin: 10px;
     }
-    .container {
-    }
-}
-.column-ex {
-    margin-right: 20px;
-}
-.column-ex-image {
-    margin-left: 10px
 }
 .stickers {
     margin: 0 -10px; /* Adjust as needed to create margins */
