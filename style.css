@@ -43,8 +43,8 @@ body {
 }
 .title {
     text-align: center;
-    margin-left: 0; /* Remove negative margin for better mobile responsiveness */
-    margin-bottom: 20px; /* Adjust the margin for spacing */
+    margin-left: -30px;
+    margin-bottom: -275px;
     overflow: hidden;
     width: 100%;
     height: auto;
