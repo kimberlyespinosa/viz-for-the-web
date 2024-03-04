@@ -37,9 +37,9 @@ body {
     overflow: hidden;
 }
 .landing-page-container {
-    max-width: 80vw; /* Set the maximum width as a percentage of the viewport width */
+    max-width: 100%; /* Adjust the maximum width for smaller screens */
     margin: auto;
-    padding: 20px; /* Optional: Add padding to the container */
+    padding: 20px;
 }
 .title {
     text-align: center;
@@ -76,6 +76,10 @@ body {
         max-width: 100%; 
         margin: 10px;
         text-align: center;
+    }
+    .quote {
+        margin-left: 75px;
+        margin-right: 75px;
     }
 }
 
@@ -132,7 +136,7 @@ h6{
     color: #503525;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: -10px;
+    margin-top: -10px
 }
 h4 {
     font-family: 'League Spartan', sans-serif
@@ -214,6 +218,7 @@ hr {
     margin: auto;
     text-align: center;
 }
+
 .aicd-map {
     width: 100%;
     max-width: 800px;
