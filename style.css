@@ -48,7 +48,6 @@ body {
     overflow: hidden;
     width: 100%;
     height: auto;
-    max-width: 100%; /* Make images responsive */
 }
 @media (max-width: 1500px) {
     .landing-page-container {
