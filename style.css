@@ -155,7 +155,7 @@ h4 {
     margin-right: auto;
     white-space: nowrap;
 }
-.column-z {
+.column {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -178,14 +178,7 @@ hr {
 .container {
     display: flex;
 }
-.column {
-    flex: 1;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-right: 20px
-}
+
 .aicd-map {
     width: 100%;
     max-width: 800px;
