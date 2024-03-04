@@ -26,22 +26,22 @@
 body {
     background-color: #fff;
 }
+.date {
+    margin-top: -10px
+}
 .landing-page-container {
     max-width: 80vw; /* Set the maximum width as a percentage of the viewport width */
     margin: auto;
     padding: 20px; /* Optional: Add padding to the container */
-    box-sizing: border-box
-}
-.landing-page-box {
-
 }
 .title {
     text-align: center;
     margin-left: -20px;
-    margin-bottom: -375px;
+    margin-bottom: -275px;
     overflow: hidden;
     width: 100%;
     height: auto;
+    text-align: center;
 }
 @media (max-width: 1500px) {
     .landing-page-container {
@@ -68,6 +68,7 @@ body {
         margin-bottom: 0px;
         max-width: 100%; 
         margin: 10px;
+        text-align: center;
     }
 }
 .stickers {
@@ -108,13 +109,21 @@ h2 {
 }
 h3 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     color: #503525;
     font-weight: bold;
-    white-space: nowrap
+    white-space: nowrap;
 }
 h5 {
     text-align: center;
+}
+h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #503525;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -10px
 }
 
 h4 {
@@ -168,15 +177,12 @@ hr {
     width: 50%;
     text-align: center
 }
-.images {
+.images image {
     text-align: center;
 }
 .quote {
     margin: auto;
     text-align: center;
-}
-.container {
-    display: flex;
 }
 
 .aicd-map {
