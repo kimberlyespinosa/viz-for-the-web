@@ -50,13 +50,7 @@ body {
     height: auto;
 }
 @media (max-width: 1500px) {
-    .landing-page-container {
-    padding: 10px; 
-    margin: 20px; 
-    margin-bottom: 0px;
-    max-width: 100%; 
-    margin: 10px; 
-    }
+    
     .column {
         margin-left: 200px;
         margin-right: 200px
