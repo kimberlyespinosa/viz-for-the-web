@@ -68,9 +68,6 @@ body {
         margin-left: 75px;
         margin-right: 75px;
         margin-bottom: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .images {
         padding: 10px; 
@@ -81,8 +78,6 @@ body {
         text-align: center;
     }
 }
-
-
 
 .stickers {
     margin: -20px -10px 0; /* Adjust the top margin to move the stickers more upward */
@@ -119,7 +114,7 @@ h2 {
     color: #503525;
     font-weight: bold;
     margin-left: 100px;
-    margin-right: 100px
+    margin-right: 100px;
 }
 h3 {
     font-family: 'DM Sans', sans-serif;
@@ -146,15 +141,11 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
     color: #503525;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
 .images {
     padding: 10px; 
     margin: 20px; 
@@ -166,6 +157,8 @@ p {
 .images img{
     border-radius: 10px;
     border: 2px solid #503525;
+    margin-right: 10px; /* Adjust the right margin to create space between images */
+    max-width: 100%; /* Make images responsive */    
 }
 .circle-1 {
     width: 325px;
@@ -203,15 +196,15 @@ p {
     white-space: nowrap;
 }
 .column {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .column p {
     font-size: 21px
 }
 hr {
     border: 1px solid #503525; /* Change color by modifying the hex code */
-    margin: 50px auto; /* Adjust the margin as needed */
+    margin: 0px auto; /* Adjust the margin as needed */
     width: 50%;
     text-align: center
 }
