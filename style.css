@@ -27,11 +27,10 @@ body {
     background-color: #fff;
 }
 #newSection {
-    background-color: #F3E5AB;
+    background-color: #fff;
     padding: 20px;
     margin: 10px;
     border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     height: 725vh; /* Set the height to 50% of the viewport height */
     max-height: 725px; /* Set a maximum height if needed */
     overflow: hidden;
@@ -45,6 +44,7 @@ body {
     text-align: center;
     margin-left: -30px;
     margin-bottom: -275px;
+    overflow: hidden;
     width: 100%;
     height: auto;
 }
@@ -61,7 +61,7 @@ body {
         margin-right: 200px
     }
     p {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'EB Garmond', Times, serif;
         font-size: 21px;
         color: #503525;
         margin-left: 75px;
@@ -121,9 +121,8 @@ h2 {
     font-family: 'DM Sans', sans-serif;
     color: #503525;
     font-weight: bold;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 h3 {
     font-family: 'DM Sans', sans-serif;
