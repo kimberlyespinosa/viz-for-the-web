@@ -45,7 +45,6 @@ body {
 }
 @media (max-width: 1500px) {
     .landing-page-container {
-    border: 2px solid #503525; 
     padding: 10px; 
     margin: 20px; 
     margin-bottom: 0px;
@@ -60,6 +59,8 @@ body {
         font-family: 'Times New Roman', Times, serif;
         font-size: 21px;
         color: #503525;
+        margin-left: 75px;
+        margin-right: 75px;
         margin-bottom: 5px;
     }
     .images {
@@ -125,9 +126,17 @@ h6{
     margin-right: 100px;
     margin-top: -10px
 }
-
 h4 {
     font-family: 'League Spartan', sans-serif
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: #503525;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .circle-1 {
     width: 325px;
@@ -165,8 +174,8 @@ h4 {
     white-space: nowrap;
 }
 .column {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .column p {
     font-size: 21px
